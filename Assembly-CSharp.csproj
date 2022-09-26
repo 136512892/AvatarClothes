@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AvatarOutlookDataConfig.cs" />
     <Compile Include="Assets\Example.cs" />
+    <Compile Include="Assets\Scripts\RawImageModelView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -662,14 +663,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Siccity.GLTFUtility.Editor.csproj">
-      <Project>{71FF52F2-894E-EFA3-D02B-74ED7FB198E7}</Project>
-      <Name>Siccity.GLTFUtility.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Siccity.GLTFUtility.csproj">
-      <Project>{4A62C19A-8AF1-CCE2-3AD6-0CCB966279EF}</Project>
-      <Name>Siccity.GLTFUtility</Name>
-    </ProjectReference>
     <ProjectReference Include="ReadyPlayerMe.csproj">
       <Project>{39E02795-AAF1-E927-26A2-B10A88022E43}</Project>
       <Name>ReadyPlayerMe</Name>
@@ -681,6 +674,14 @@
     <ProjectReference Include="ReadyPlayerMe.Extras.Editor.csproj">
       <Project>{56AFC3FB-8125-9F0C-C992-4696E99D7F6D}</Project>
       <Name>ReadyPlayerMe.Extras.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Siccity.GLTFUtility.Editor.csproj">
+      <Project>{71FF52F2-894E-EFA3-D02B-74ED7FB198E7}</Project>
+      <Name>Siccity.GLTFUtility.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Siccity.GLTFUtility.csproj">
+      <Project>{4A62C19A-8AF1-CCE2-3AD6-0CCB966279EF}</Project>
+      <Name>Siccity.GLTFUtility</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
