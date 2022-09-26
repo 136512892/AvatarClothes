@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "39e02795-aaf1-e927-26a2-b10a88022e43": {
+      "ProjectGuid": "39e02795-aaf1-e927-26a2-b10a88022e43",
+      "DisplayName": "ReadyPlayerMe",
+      "ColorIndex": 0
+    },
+    "292b3aa0-690e-c68b-c9ea-e84bb63c585a": {
+      "ProjectGuid": "292b3aa0-690e-c68b-c9ea-e84bb63c585a",
+      "DisplayName": "ReadyPlayerMe.Editor",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "e418b345-eaa8-73cf-ef14-8c1a3b2b8ee6": {
+      "ProjectGuid": "e418b345-eaa8-73cf-ef14-8c1a3b2b8ee6",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 2
+    },
+    "23ea059b-5c72-1ee2-0612-30240323f5cb": {
+      "ProjectGuid": "23ea059b-5c72-1ee2-0612-30240323f5cb",
+      "DisplayName": "Assembly-CSharp-Editor",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 378fc4db62ce5434cb615342d255585f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 768a5a18fd6eb914f980bf85dd7b34ec, type: 3}
+  importSettings:
+    materials: 1
+    shaderOverrides:
+      metallic: {fileID: 4800000, guid: 057d08f5d01be134593d0fe0e40c1759, type: 3}
+      metallicBlend: {fileID: 4800000, guid: 7258d825fa9aac6439f21eb173b880c6, type: 3}
+      specular: {fileID: 4800000, guid: d28fc76bfd3057e4c8f1c6f0b91590c8, type: 3}
+      specularBlend: {fileID: 4800000, guid: 475158e3052e5c4488fa32f8df9d7be7, type: 3}
+    useLegacyClips: 0
+    interpolationMode: -1
