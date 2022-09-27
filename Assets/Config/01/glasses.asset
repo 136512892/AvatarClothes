@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d040cbe17695b144e9cebb80343e0363, type: 3}
+  m_Name: glasses
+  m_EditorClassIdentifier: 
+  data:
+  - thumb: {fileID: 21300000, guid: 3b8fa515c6259434f9418f880db6505f, type: 3}
+    glassesMesh: {fileID: 4300000, guid: 18d53725701e4fb43bc838e1a72bde34, type: 2}
+    glassesMaterial: {fileID: 2100000, guid: 81039ffc4f9045a40a203bb8e58055d4, type: 2}
+  - thumb: {fileID: 21300000, guid: af8cf5ce1dfdf814d977cf10bde3d86b, type: 3}
+    glassesMesh: {fileID: 4300000, guid: 6aa7a28e0b8e900448d8fc457cea6cf9, type: 2}
+    glassesMaterial: {fileID: 2100000, guid: 4ee640b179a1f8e41bf827ae63572db7, type: 2}

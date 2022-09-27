@@ -53,9 +53,12 @@
     <UnityVersion>2020.3.16f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\RawImageModelView.cs" />
     <Compile Include="Assets\Scripts\AvatarOutlookDataConfig.cs" />
     <Compile Include="Assets\Example.cs" />
-    <Compile Include="Assets\Scripts\RawImageModelView.cs" />
+    <Compile Include="Assets\Scripts\AvatarHairDataConfig.cs" />
+    <Compile Include="Assets\Scripts\AvatarGlassesDataConfig.cs" />
+    <Compile Include="Assets\Scripts\AvatarBeardDataConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
