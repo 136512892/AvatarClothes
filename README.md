@@ -6,5 +6,6 @@ Unity 人物换装系统的解决方案，项目中涉及的美术素材全部�
 
 - Unity版本：2020.3.16
 
+![GIF](https://user-images.githubusercontent.com/44351120/192448602-5b28960e-8b57-4b82-9473-d3ba240169db.gif)
 
-![GIF](https://user-images.githubusercontent.com/44351120/192291688-0f238039-7480-4b83-b50f-27af53362204.gif)
+![GIF1](https://user-images.githubusercontent.com/44351120/192448622-c385e202-478a-4bd5-963a-73acd9d7ff24.gif)
