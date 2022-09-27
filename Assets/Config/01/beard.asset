@@ -13,6 +13,23 @@ MonoBehaviour:
   m_Name: beard
   m_EditorClassIdentifier: 
   data:
+  - thumb: {fileID: 21300000, guid: 5ec84383c52bfc14198b4e517f7add2c, type: 3}
+    type: 0
+    beardMesh: {fileID: 0}
+    beardMaterial: {fileID: 0}
   - thumb: {fileID: 21300000, guid: 155de8b3976ac9442a7310ce8580410e, type: 3}
+    type: 0
     beardMesh: {fileID: 4300000, guid: 10d9e597900be304580c1a9f5071b68a, type: 2}
     beardMaterial: {fileID: 2100000, guid: 3fc4f2c146a1b7546a797beada542487, type: 2}
+  - thumb: {fileID: 21300000, guid: aa51eb4c727d1b647ac34a85f7a62323, type: 3}
+    type: 1
+    beardMesh: {fileID: 0}
+    beardMaterial: {fileID: 2100000, guid: c37d28edee2f98649896e720516e9694, type: 2}
+  - thumb: {fileID: 21300000, guid: 362de83a2b7d33a4ab6c1618313696c6, type: 3}
+    type: 1
+    beardMesh: {fileID: 0}
+    beardMaterial: {fileID: 2100000, guid: 55775439fc74ffa41bedcbd2ca22a988, type: 2}
+  - thumb: {fileID: 21300000, guid: 2564a89508cd83b42843d6958519780b, type: 3}
+    type: 1
+    beardMesh: {fileID: 0}
+    beardMaterial: {fileID: 2100000, guid: 6cf5d5b43108fca49b53c5394e49457b, type: 2}

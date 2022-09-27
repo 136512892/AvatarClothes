@@ -9,6 +9,14 @@ namespace Metaverse
     {
         public Sprite thumb;
 
+        public enum Type
+        {
+            Mesh,
+            Texture,
+        }
+
+        public Type type = Type.Mesh;
+
         public Mesh beardMesh;
 
         public Material beardMaterial;

@@ -19,6 +19,7 @@ namespace Metaverse
             if (string.IsNullOrEmpty(collectPath)) return;
             //AssetDatabase路径
             collectPath = collectPath.Replace(Application.dataPath, "Assets");
+            AssetDatabase.Refresh();
             if (!AssetDatabase.IsValidFolder(collectPath)) return;
 
             //发型

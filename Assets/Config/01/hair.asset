@@ -19,3 +19,12 @@ MonoBehaviour:
   - thumb: {fileID: 21300000, guid: a28404e1ba4dc2e44b8c7e6e569ade87, type: 3}
     hairMesh: {fileID: 4300000, guid: 5b1f7a013a87d28458f29268197962e1, type: 2}
     hairMaterial: {fileID: 2100000, guid: efad0a46373ff1e4ca95ab58cd451b74, type: 2}
+  - thumb: {fileID: 21300000, guid: 2557f2646af31944d81f70696ae60a36, type: 3}
+    hairMesh: {fileID: 4300000, guid: 330bd6c68bfa74549b1ba3851d24c4ec, type: 2}
+    hairMaterial: {fileID: 2100000, guid: 8d0920575da7b784398e9b2f832e5c6f, type: 2}
+  - thumb: {fileID: 21300000, guid: 23437a201e57ec34eaddd10156dcb6d3, type: 3}
+    hairMesh: {fileID: 4300000, guid: b91e51493daaa27469d96bf3efad7533, type: 2}
+    hairMaterial: {fileID: 2100000, guid: 4310c5b9bfdb46d429308aa18898befb, type: 2}
+  - thumb: {fileID: 21300000, guid: 93f8e0d6f7bf8214e90ba21196ddc85b, type: 3}
+    hairMesh: {fileID: 4300000, guid: c635bf2a722c8a4439d14830f8869fa7, type: 2}
+    hairMaterial: {fileID: 2100000, guid: 0b67342522bde3348b769226e1356187, type: 2}

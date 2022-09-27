@@ -13,9 +13,21 @@ MonoBehaviour:
   m_Name: glasses
   m_EditorClassIdentifier: 
   data:
+  - thumb: {fileID: 21300000, guid: fb8f2b9a55dbaab47b10aa7241d30904, type: 3}
+    glassesMesh: {fileID: 0}
+    glassesMaterial: {fileID: 0}
   - thumb: {fileID: 21300000, guid: 3b8fa515c6259434f9418f880db6505f, type: 3}
     glassesMesh: {fileID: 4300000, guid: 18d53725701e4fb43bc838e1a72bde34, type: 2}
     glassesMaterial: {fileID: 2100000, guid: 81039ffc4f9045a40a203bb8e58055d4, type: 2}
   - thumb: {fileID: 21300000, guid: af8cf5ce1dfdf814d977cf10bde3d86b, type: 3}
     glassesMesh: {fileID: 4300000, guid: 6aa7a28e0b8e900448d8fc457cea6cf9, type: 2}
     glassesMaterial: {fileID: 2100000, guid: 4ee640b179a1f8e41bf827ae63572db7, type: 2}
+  - thumb: {fileID: 21300000, guid: b0b40caace7f0c341a25dae6ee2a6c14, type: 3}
+    glassesMesh: {fileID: 4300000, guid: 19c9368c0da52ab429dec0a475f0cb61, type: 2}
+    glassesMaterial: {fileID: 2100000, guid: af672f83e0762a54eb8e46cf2535509b, type: 2}
+  - thumb: {fileID: 21300000, guid: c698d79f1e2eaad4c908d814a90e61f4, type: 3}
+    glassesMesh: {fileID: 4300000, guid: 919c772690cf4b140ba090e319259435, type: 2}
+    glassesMaterial: {fileID: 2100000, guid: 6eaf4021a0ac0424d89bb5cec1ee744b, type: 2}
+  - thumb: {fileID: 21300000, guid: f077a46a6255af844821174264868cc2, type: 3}
+    glassesMesh: {fileID: 4300000, guid: a3f6897597dcb8c48a403e75f23d8d4c, type: 2}
+    glassesMaterial: {fileID: 2100000, guid: 69ec89134dd3a604181ea25e6239de68, type: 2}

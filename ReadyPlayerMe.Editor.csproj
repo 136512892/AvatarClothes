@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,10 +53,13 @@
     <UnityVersion>2020.3.16f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Plugins\Ready Player Me\Editor\Postprocessor.cs" />
-    <Compile Include="Assets\Plugins\Ready Player Me\Editor\AvatarLoaderEditorWindow.cs" />
     <Compile Include="Assets\Plugins\Ready Player Me\Editor\AnimationExtractor.cs" />
     <Compile Include="Assets\Plugins\Ready Player Me\Editor\EditorWindowBase.cs" />
+    <Compile Include="Assets\Plugins\Ready Player Me\Editor\AvatarLoaderEditorWindow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Ready Player Me\Editor\ReadyPlayerMe.Editor.asmdef" />

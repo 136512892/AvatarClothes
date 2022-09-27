@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,37 +53,40 @@
     <UnityVersion>2020.3.16f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Exporter.cs" />
     <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\Vector3Converter.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFPrimitive.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\EnumConverter.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Extensions.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFAsset.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFProperty.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFAnimation.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\TranslationConverter.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFCamera.cs" />
     <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\ColorConverter.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\Vector2Converter.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFObject.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFBufferView.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\BufferedBinaryReader.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\QuaternionConverter.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFAsset.cs" />
     <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Importer.cs" />
     <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Settings\ShaderSettings.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Enums.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\Matrix4x4Converter.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Extensions\KHR_texture_transform.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFSkin.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFBufferView.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFBuffer.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\Vector2Converter.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFTexture.cs" />
     <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFMaterial.cs" />
     <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFNode.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFSkin.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Extensions\KHR_texture_transform.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFTexture.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\BufferedBinaryReader.cs" />
     <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFScene.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFImage.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\QuaternionConverter.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFAccessor.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Settings\ImportSettings.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFCamera.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFProperty.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFAnimation.cs" />
     <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFMesh.cs" />
-    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFBuffer.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\EnumConverter.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFObject.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Settings\ImportSettings.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\Matrix4x4Converter.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFAccessor.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFPrimitive.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Enums.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Spec\GLTFImage.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Extensions.cs" />
+    <Compile Include="Assets\Plugins\GLTFUtility\Scripts\Converters\TranslationConverter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\GLTFUtility\Materials\Built-in\Standard-Metallic-Blend.shader" />

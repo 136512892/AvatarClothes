@@ -7,15 +7,22 @@ public class Example : MonoBehaviour
 {
     [SerializeField] private AvatarOutlookDataConfig outlookConfig;
     [SerializeField] private AvatarHairDataConfig hairConfig;
+    [SerializeField] private AvatarGlassesDataConfig glassesConfig;
+    [SerializeField] private AvatarBeardDataConfig beardConfig;
     [SerializeField] private GameObject outlookItemPrefab;
     [SerializeField] private GameObject hairItemPrefab;
+    [SerializeField] private GameObject glassesItemPrefab;
+    [SerializeField] private GameObject beardItemPrefab;
 
-    [SerializeField] private SkinnedMeshRenderer head, body, top, bottom, footwear, hair;
+    [SerializeField] private SkinnedMeshRenderer head, body, top, bottom, footwear, hair, glasses, beard;
+    private Material currentHeadMat;
 
     private void Start()
     {
         StartCoroutine(InitOutlook());
         StartCoroutine(InitHair());
+        StartCoroutine(InitGlasses());
+        StartCoroutine(InitBeard());
     }
 
     private IEnumerator InitOutlook()
@@ -36,7 +43,7 @@ public class Example : MonoBehaviour
                     {
                         int index = instance.transform.GetSiblingIndex();
                         head.sharedMesh = outlookConfig.data[index].headMesh;
-                        head.sharedMaterial = outlookConfig.data[index].headMaterial;
+                        head.sharedMaterial = currentHeadMat != null ? currentHeadMat : outlookConfig.data[index].headMaterial;
 
                         body.sharedMesh = outlookConfig.data[index].bodyMesh;
                         body.sharedMaterial = outlookConfig.data[index].bodyMaterial;
@@ -75,6 +82,68 @@ public class Example : MonoBehaviour
                         int index = instance.transform.GetSiblingIndex();
                         hair.sharedMesh = hairConfig.data[index].hairMesh;
                         hair.sharedMaterial = hairConfig.data[index].hairMaterial;
+                    }
+                });
+                yield return null;
+            }
+        }
+    }
+
+    private IEnumerator InitGlasses()
+    {
+        if (glassesConfig != null)
+        {
+            for (int i = 0; i < glassesConfig.data.Count; i++)
+            {
+                var data = glassesConfig.data[i];
+                var instance = Instantiate(glassesItemPrefab);
+                instance.transform.SetParent(glassesItemPrefab.transform.parent, false);
+                instance.transform.SetSiblingIndex(glassesItemPrefab.transform.parent.childCount - 2);
+                instance.GetComponent<Image>().sprite = data.thumb;
+                instance.SetActive(true);
+                instance.GetComponent<Toggle>().onValueChanged.AddListener(isOn =>
+                {
+                    if (isOn)
+                    {
+                        int index = instance.transform.GetSiblingIndex();
+                        glasses.sharedMesh = glassesConfig.data[index].glassesMesh;
+                        glasses.sharedMaterial = glassesConfig.data[index].glassesMaterial;
+                    }
+                });
+                yield return null;
+            }
+        }
+    }
+
+    private IEnumerator InitBeard()
+    {
+        if (beardConfig != null)
+        {
+            for (int i = 0; i < beardConfig.data.Count; i++)
+            {
+                var data = beardConfig.data[i];
+                var instance = Instantiate(beardItemPrefab);
+                instance.transform.SetParent(beardItemPrefab.transform.parent, false);
+                instance.transform.SetSiblingIndex(beardItemPrefab.transform.parent.childCount - 2);
+                instance.GetComponent<Image>().sprite = data.thumb;
+                instance.SetActive(true);
+                instance.GetComponent<Toggle>().onValueChanged.AddListener(isOn =>
+                {
+                    if (isOn)
+                    {
+                        int index = instance.transform.GetSiblingIndex();
+                        switch (data.type)
+                        {
+                            case AvatarBeardData.Type.Mesh:
+                                beard.sharedMesh = beardConfig.data[index].beardMesh;
+                                beard.sharedMaterial = beardConfig.data[index].beardMaterial;
+                                currentHeadMat = null;
+                                break;
+                            case AvatarBeardData.Type.Texture:
+                                head.sharedMaterial = beardConfig.data[index].beardMaterial;
+                                currentHeadMat = beardConfig.data[index].beardMaterial;
+                                break;
+                        }
                     }
                 });
                 yield return null;
