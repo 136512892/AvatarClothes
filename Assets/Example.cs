@@ -16,6 +16,7 @@ public class Example : MonoBehaviour
 
     [SerializeField] private SkinnedMeshRenderer head, body, top, bottom, footwear, hair, glasses, beard;
     private Material currentHeadMat;
+    private Material cacheHeadMat;
 
     private void Start()
     {
@@ -44,6 +45,7 @@ public class Example : MonoBehaviour
                         int index = instance.transform.GetSiblingIndex();
                         head.sharedMesh = outlookConfig.data[index].headMesh;
                         head.sharedMaterial = currentHeadMat != null ? currentHeadMat : outlookConfig.data[index].headMaterial;
+                        cacheHeadMat = outlookConfig.data[index].headMaterial;
 
                         body.sharedMesh = outlookConfig.data[index].bodyMesh;
                         body.sharedMaterial = outlookConfig.data[index].bodyMaterial;
@@ -138,10 +140,13 @@ public class Example : MonoBehaviour
                                 beard.sharedMesh = beardConfig.data[index].beardMesh;
                                 beard.sharedMaterial = beardConfig.data[index].beardMaterial;
                                 currentHeadMat = null;
+                                if (cacheHeadMat != null) head.sharedMaterial = cacheHeadMat;
                                 break;
                             case AvatarBeardData.Type.Texture:
                                 head.sharedMaterial = beardConfig.data[index].beardMaterial;
                                 currentHeadMat = beardConfig.data[index].beardMaterial;
+                                beard.sharedMesh = null;
+                                beard.sharedMaterial = null;
                                 break;
                         }
                     }
