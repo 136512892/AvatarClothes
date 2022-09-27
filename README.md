@@ -2,6 +2,10 @@
 
 Unity 人物换装系统的解决方案，项目中涉及的美术素材全部来源于Ready Player Me，地址：https://readyplayer.me/ 
 
+## 相关博文
+[Unity Metaverse（五）、Avatar数字人换装系统的实现方案](https://blog.csdn.net/qq_42139931/article/details/126574959?spm=1001.2014.3001.5501)
+[Unity Metaverse（六）、关于Avatar换装系统的示例工程](https://blog.csdn.net/qq_42139931/article/details/127071578?spm=1001.2014.3001.5501)
+
 ## 环境
 
 - Unity版本：2020.3.16
