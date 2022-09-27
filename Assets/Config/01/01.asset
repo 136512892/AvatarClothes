@@ -123,3 +123,58 @@ MonoBehaviour:
     bottomMaterial: {fileID: 2100000, guid: 1c27cd5a306b8444e85abd6366592013, type: 2}
     footwearMesh: {fileID: 4300000, guid: 9e1bbdc4c5401f7479bf385230bfab05, type: 2}
     footwearMaterial: {fileID: 2100000, guid: 0ac13823a4f1ae64cb7634a4ba741b1d, type: 2}
+  - thumb: {fileID: 21300000, guid: fe6a490a051a72f4fb46536f3bcfb7c0, type: 3}
+    headMesh: {fileID: 4300000, guid: 40633234d6e28294389c988ffe99bdfc, type: 2}
+    headMaterial: {fileID: 2100000, guid: b544e27f587a8b646aaff7708c258f12, type: 2}
+    bodyMesh: {fileID: 4300000, guid: 4e1f1289874074a46b5241d8a57481d9, type: 2}
+    bodyMaterial: {fileID: 2100000, guid: ab1cf6309a03f9845aaee7ce2711c04c, type: 2}
+    topMesh: {fileID: 4300000, guid: 215cafbde9d07cf4ca54751a745bf943, type: 2}
+    topMaterial: {fileID: 2100000, guid: 32cf6d1bfe1fa5a42824ba152773f51f, type: 2}
+    bottomMesh: {fileID: 4300000, guid: c4b01249815e1a047a924ffdfe813a53, type: 2}
+    bottomMaterial: {fileID: 2100000, guid: 061ce95404c9eba4ea72ba294a7c778a, type: 2}
+    footwearMesh: {fileID: 4300000, guid: c719d1d7665a1af4bb0d11bd695be58d, type: 2}
+    footwearMaterial: {fileID: 2100000, guid: 6d03d68314d64754a9d368b2f621e911, type: 2}
+  - thumb: {fileID: 21300000, guid: 161524e43cfa0304780358b70e758e45, type: 3}
+    headMesh: {fileID: 4300000, guid: 84678947fb1c62a4fafa376c8bcfe385, type: 2}
+    headMaterial: {fileID: 2100000, guid: 523a480bb827f9c45b7cd502562e2181, type: 2}
+    bodyMesh: {fileID: 4300000, guid: d1429779b6ef8b94c838a82c5e79793d, type: 2}
+    bodyMaterial: {fileID: 2100000, guid: 01f45fa8eb13b8c4080f42dc6acc4df2, type: 2}
+    topMesh: {fileID: 4300000, guid: aa34a78c03920a246a8ba18c49faf6b1, type: 2}
+    topMaterial: {fileID: 2100000, guid: 3d201c74cdb32c54ab0f36af3b69beb3, type: 2}
+    bottomMesh: {fileID: 4300000, guid: e9bd49e5d46090246906f15da925b793, type: 2}
+    bottomMaterial: {fileID: 2100000, guid: 4c004e4981862d6458fb6f1b4de437a4, type: 2}
+    footwearMesh: {fileID: 4300000, guid: fed40211bf758e94fb7766ca12ab80c0, type: 2}
+    footwearMaterial: {fileID: 2100000, guid: a2a7965cfb746c446bcb9e526a1604c9, type: 2}
+  - thumb: {fileID: 21300000, guid: 8610bc4f78d44f640bfdd475cafd5851, type: 3}
+    headMesh: {fileID: 4300000, guid: addbe4f9c8e6bd24a8f5767629b8bad7, type: 2}
+    headMaterial: {fileID: 2100000, guid: 2c9692eb8c99ca9419129f2acb7f61bf, type: 2}
+    bodyMesh: {fileID: 4300000, guid: 835d62a471881584d803bd146df2802d, type: 2}
+    bodyMaterial: {fileID: 2100000, guid: 043e9327e88dffe4d967225700ba77cb, type: 2}
+    topMesh: {fileID: 4300000, guid: d0b0756f039a32c4296f7eeadaad8d92, type: 2}
+    topMaterial: {fileID: 2100000, guid: bad24db81681dbc46840a928c4dc584b, type: 2}
+    bottomMesh: {fileID: 4300000, guid: 33857918ebcb2304e9648a51dff256d9, type: 2}
+    bottomMaterial: {fileID: 2100000, guid: 5c7d163965b6f844597686d83035aea6, type: 2}
+    footwearMesh: {fileID: 4300000, guid: 57d37ce66e498ba44a105314fd83343d, type: 2}
+    footwearMaterial: {fileID: 2100000, guid: 776f1785740d9084ca30c30851c31700, type: 2}
+  - thumb: {fileID: 21300000, guid: 0e68f664b8d62f642877363febd27b7e, type: 3}
+    headMesh: {fileID: 4300000, guid: 8dc94e8123b962e4f857f451fc1b13a7, type: 2}
+    headMaterial: {fileID: 2100000, guid: edb8fd6f233e03641bfc5a0965fbec90, type: 2}
+    bodyMesh: {fileID: 4300000, guid: c164e17bde67ef64f8ee607158122864, type: 2}
+    bodyMaterial: {fileID: 2100000, guid: a39294d5043132941ac96cb5d14c037d, type: 2}
+    topMesh: {fileID: 4300000, guid: ac23969fd3ac0ad4886b8a49b65678e8, type: 2}
+    topMaterial: {fileID: 2100000, guid: 6a2f0fab4d7104a4dae6283d9eb5429d, type: 2}
+    bottomMesh: {fileID: 4300000, guid: c4b10f10b980478499ede120b13f558b, type: 2}
+    bottomMaterial: {fileID: 2100000, guid: 154701a7fbc802d47937d22c3dba95e4, type: 2}
+    footwearMesh: {fileID: 4300000, guid: 1d3a7d02a321783458c72c4085944253, type: 2}
+    footwearMaterial: {fileID: 2100000, guid: 4290c466b8cb2e041981142ac7dee314, type: 2}
+  - thumb: {fileID: 21300000, guid: bcee08947046c644a8c91bf280c0f2ae, type: 3}
+    headMesh: {fileID: 4300000, guid: 2b41d17721f172046b066a82bb4559de, type: 2}
+    headMaterial: {fileID: 2100000, guid: ee462740f5699c74f8854384a9c6ca3c, type: 2}
+    bodyMesh: {fileID: 4300000, guid: 1a29380ef3b55b340aa7ee5ad45edf23, type: 2}
+    bodyMaterial: {fileID: 2100000, guid: e2aea3b2f28b30a43a0c1c64a7416d63, type: 2}
+    topMesh: {fileID: 4300000, guid: d875ba12bbb78fe4594593703f9dbd51, type: 2}
+    topMaterial: {fileID: 2100000, guid: cc8a0cb375f2a6146bfe7547a5fed037, type: 2}
+    bottomMesh: {fileID: 4300000, guid: fc5a82bbc7382b143abd0eee44b06fd3, type: 2}
+    bottomMaterial: {fileID: 2100000, guid: a4c59d52bce985047a31f1128c7dcff6, type: 2}
+    footwearMesh: {fileID: 4300000, guid: f01f5b7d77cc6524fa7504cc6b2f616b, type: 2}
+    footwearMaterial: {fileID: 2100000, guid: 20f9a491a15f8564dbb405d2a4c27531, type: 2}
